@@ -8,7 +8,6 @@ public class Wheel {
     private int width;
     private int height;
 
-    // геттеры и сеттеры
     public String getBrand() {
         return brand;
     }
@@ -39,19 +38,6 @@ public class Wheel {
 
     public void setHeight(int height) {
         this.height = height;
-    }
-
-    // основной метод
-    // создания массива колес
-    public static void main(String[] args) {
-
-        Wheel wheel = new Wheel();// объект класса для доступа к геттерам
-
-        int wheels[] = new int[3]; // массив колес и инициализация массива геттерами
-        wheels[0] = wheel.getHeight();
-        wheels[1] = wheel.getRadius();
-        wheels[2] = wheel.getWidth();
-
     }
 }
 
